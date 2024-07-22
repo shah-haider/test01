@@ -31,7 +31,17 @@
       "filters": "[]",
       "height": 720.00,
       "name": "ReportSection8cfab7c2d1a02c130599",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"908ebf44c089bea4db34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"PartPlant.BuyerID\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"PartPlant\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"BuyerID\"},\"Name\":\"PartPlant.BuyerID\",\"NativeReferenceName\":\"BuyerID\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
       "width": 1280.00
     }
   ],
