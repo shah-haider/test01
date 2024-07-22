@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "IPE Consolidated Sales (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "959154ef-8663-479f-9b0f-a8efa0e3f736"
+  }
+}

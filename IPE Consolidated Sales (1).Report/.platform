@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "IPE Consolidated Sales (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "afbb3fc7-237c-4209-8449-3f5c2e2a0711"
+  }
+}

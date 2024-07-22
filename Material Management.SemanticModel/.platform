@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Material Management"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "113968a3-3174-4290-9baa-717a93f87dc5"
+  }
+}
