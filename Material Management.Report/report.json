@@ -33,13 +33,22 @@
       "name": "ReportSection8cfab7c2d1a02c130599",
       "visualContainers": [
         {
-          "config": "{\"name\":\"908ebf44c089bea4db34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"PartPlant.BuyerID\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"PartPlant\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"BuyerID\"},\"Name\":\"PartPlant.BuyerID\",\"NativeReferenceName\":\"BuyerID\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"908ebf44c089bea4db34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.904998790893703,\"y\":0,\"z\":0,\"width\":250.45496942688362,\"height\":445.72494559021663,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"PartPlant.BuyerID\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"PartPlant\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"BuyerID\"},\"Name\":\"PartPlant.BuyerID\",\"NativeReferenceName\":\"BuyerID\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
+          "height": 445.72,
+          "width": 250.45,
+          "x": 9.90,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"feef32f7b011430b331e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":456,\"width\":250,\"height\":264,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(PartLot.LotSubContCost)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"PartLot\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"LotSubContCost\"}},\"Function\":0},\"Name\":\"Sum(PartLot.LotSubContCost)\",\"NativeReferenceName\":\"LotSubContCost\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 264.00,
+          "width": 250.00,
+          "x": 10.00,
+          "y": 456.00,
+          "z": 1.00
         }
       ],
       "width": 1280.00
